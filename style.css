@@ -383,7 +383,7 @@ section {
 }
 
 /* Responsiveness  */
-@media (min-width:481px) and (max-width:792px) {
+@media (max-width:792px) {
 
     header,
     header.sticky {
@@ -560,16 +560,16 @@ section {
 }
 
 /* Mobile Responsivness */
-@media (max-width:480px) {
+/*@media (max-width:480px) {
     header .navigation {
         display: none;
         /* position: absolute; */
 
-    }
+/*    }
 
     header .navigation::before {
         position: absolute;
         box-shadow: 5px 0 0 #fff;
 
     }
-}
+}*/
