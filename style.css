@@ -563,22 +563,37 @@ section {
 
 /* Mobile Responsivness */
 @media (max-width:480px) {
-
-    .menuToggle {
-        right: 6px;
+    header, header.sticky {
+        padding: 10px 20px;
+        width: 100vw;
     }
 
+   
     .banner {
         padding: 5px;
     }
-
+    .banner .content h2 {
+        font-size: 4em;
+    
+        padding-top: 50px;
+    }
+    .btn {
+        margin-top: 50px;
+    }
+    .row .col50 {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 32px;
+    }
     .menu .content {
         display: flex;
         flex-wrap: wrap;
         margin-top: 40px;
         width: 100%;
     }
-
+.menu .title p{
+    text-align: center;
+}
     .menu .content .box {
         width: 480px;
         margin-bottom: 5px;
@@ -597,8 +612,24 @@ section {
     }
 
     .expert .content .box {
-        width: 95%;
+        width: 100vw;
         margin: 0;
+    }
+
+    .expert .content .box .imgBx img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        object-fit: cover;
+        height: 300px;
+    }
+
+    .contact .title {
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+        padding: 20px 5px;
     }
 
     .contactForm {
@@ -607,9 +638,22 @@ section {
         width: 96%;
     }
 
+    .testimonials {
+        padding: 0;
+    }
+
+    .testimonials .title {
+        text-align: center;
+        padding: 0 5px;
+    }
+
+    .testimonials .content .box {
+        padding: 5px;
+    }
+
     .titleText {
         color: #111;
-        font-size: 2.5em;
+        font-size: 1.9em;
         /* font-weight: 300; */
     }
 }
